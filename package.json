@@ -35,5 +35,12 @@
   },
   "engines": {
     "node": ">= 4.7.0"
-  }
+  },
+  "files": [
+    "./dist/modules/index.mjs",
+    "./dist/modules/parallax.min.mjs",
+    "./dist/modules/parallax.min.mjs.map",
+    "./dist/modules/parallax.mjs",
+    "./dist/types/modules/index.d.ts"
+  ]
 }
