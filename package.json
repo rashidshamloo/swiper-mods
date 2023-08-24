@@ -1,0 +1,39 @@
+{
+  "name": "@rashidshamloo/swiper-mods",
+  "version": "0.0.1",
+  "description": "Swiper tweaks and modifications",
+  "type": "module",
+  "exports": {
+    "./modules": {
+      "types": "./dist/types/modules/index.d.ts",
+      "default": "./dist/modules/index.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "modules": [
+        "./dist/types/modules/index.d.ts"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rashidshamloo/swiper-mods.git"
+  },
+  "keywords": [
+    "swiper",
+    "modification"
+  ],
+  "author": {
+    "name": "Rashid Shamloo",
+    "email": "rashidshamloo@gmail.com",
+    "url": "https://github.com/rashidshamloo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rashidshamloo/swiper-mods/issues"
+  },
+  "engines": {
+    "node": ">= 4.7.0"
+  }
+}
